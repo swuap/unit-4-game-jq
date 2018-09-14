@@ -1,0 +1,57 @@
+body {
+    background-image: url("vertical-waves.png");
+    margin: 0;
+}
+
+#title {
+    background-color: orange;
+    height: 35px;
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+#instructions {
+    background-color: orange;
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+#target {
+    background-color: teal;
+    font-size: 25px;
+    width: 200px;
+    height: 65px;
+    margin-bottom: 10px;
+}
+
+#score {
+    background-color: orange;
+    font-size: 25px;
+    width: 200px;
+    height: 65px;
+    margin-bottom: 10px;
+}
+
+.thumbnails {
+    width: 105px;
+    margin: 0 25px 10px 0;
+}
+
+#bruce {
+    float: left;
+}
+
+#tyler {
+    float: left;
+}
+
+#hasan {
+    float: left;
+}
+
+#gameScore {
+    background-color: teal;
+    font-size: 35px;
+    width: 200px;
+    height: 80px;
+}

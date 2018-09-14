@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Guessing Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+<body onload="startUp()">
+    <div id="title">
+        DevelopersCollector!
+    </div>
+
+    <div id="instructions">
+        <p>
+            You will be given a random number at the start of the game.
+        </p>
+        <br>
+        <p>
+            Your four favorite developers are below. By clicking on their picture you will add a specific amount of points to your total score.
+        </p>
+        <br>
+        <p>
+            You win the game by matching your total score to the random number. You lose the game if your total score exceeds the random number.
+        </p>
+        <br>
+        <p>
+            The value of each developer is hidden from you until you click on it. Hint: check the code for a cheat!
+        </p>
+        <br>
+        <p>
+            Each time the game starts, new values will be assigned to your favorite developers!
+        </p>
+    </div>
+
+    <div id="target">
+        
+    </div>
+
+    <div id="score">
+        <div id="wins">
+            Wins: 
+        </div>
+
+        <div id="losses">
+            Losses:
+        </div>
+    </div>
+
+    <div id="pictures">
+        <div>
+            <img src="assets/images/bruce.PNG" id="bruce" class="thumbnails">
+        </div>
+        
+        <div>
+            <img src="assets/images/tyler.PNG" id="tyler" class="thumbnails">
+        </div>
+
+        <div>
+            <img src="assets/images/hasan.PNG" id="hasan" class="thumbnails">
+        </div>
+
+        <div>
+            <img src="assets/images/netreia.PNG" id="netreia" class="thumbnails">
+        </div>
+    </div>
+
+    <div id="gameScore">
+        
+    </div>
+
+</body>
+
+<script src="assets/javascript/game.js"></script>
+
+</html>
